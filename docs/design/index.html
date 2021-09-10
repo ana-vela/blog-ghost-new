@@ -1,15 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Customizing your brand and design settings</title>
-    <meta name="HandheldFriendly" content="True" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <link rel="stylesheet" type="text/css" href="/assets/main/css/main.css?v=dfe6102a3d" />
+    <link rel="preload" href="/fonts/inter-var-latin.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/built/screen.css?v=4c59538030">
 
     <link rel="canonical" href="http://localhost:2369/design/" />
     <meta name="referrer" content="no-referrer-when-downgrade" />
@@ -157,38 +154,74 @@
 .gh-post-upgrade-cta a.gh-btn:hover {
     opacity: 0.92;
 }</style><style>:root {--ghost-accent-color: #FF1A75;}</style>
-
 </head>
-<body class="is-preload post-template tag-getting-started">
 
-    <div id="wrapper">
-        <main id="main">
-            <div class="inner">
+<body class="post-template tag-getting-started is-head-b--a_n">
+    <div class="gh-site">
+        <header id="gh-head" class="gh-head gh-outer">
+            <div class="gh-head-inner gh-inner">
+                <div class="gh-head-brand">
+                    <a class="gh-head-logo" href="http://localhost:2369">
+                            Ana&#x27;s Blog
+                    </a>
+                    <button class="gh-burger"></button>
+                </div>
 
-                <header id="header">
-                        <a href="http://localhost:2369" class="logo">Ana&#x27;s Blog</a>
-                    <ul class="icons">
-                            <li><a href="https://twitter.com/ghost" class="icon fa-twitter" title="Twitter"><span class="label">Twitter</span></a></li>
-                            <li><a href="https://www.facebook.com/ghost" class="icon fa-facebook" title="Facebook"><span class="label">Facebook</span></a></li>
-                        <li><a href="https://feedly.com/i/subscription/feed/http://localhost:2369/rss/" class="icon fa-rss" target="_blank" rel="noopener"><span class="label" title="RSS">RSS</span></a></li>
-                    </ul>
-                </header>
+                <nav class="gh-head-menu">
+                    <ul class="nav">
+    <li class="nav-home"><a href="http://localhost:2369/">Home</a></li>
+    <li class="nav-about"><a href="http://localhost:2369/about/">About</a></li>
+    <li class="nav-collection"><a href="http://localhost:2369/tag/getting-started/">Collection</a></li>
+    <li class="nav-author"><a href="http://localhost:2369/author/ghost/">Author</a></li>
+    <li class="nav-portal"><a href="http://localhost:2369/portal/">Portal</a></li>
+</ul>
 
-                
-<section>
+                </nav>
 
-    <header class="main content">
-        <span class="date">September 10, 2021</span>
-        <h1>Customizing your brand and design settings</h1>
-            <p class="content">How to tweak a few settings in Ghost to transform your site from a generic template to a custom brand with style and personality.</p>
-    </header>
+                <div class="gh-head-actions">
+                        <a class="gh-head-btn" href="#/portal/signup">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
+    <path d="M3.33332 3.33334H16.6667C17.5833 3.33334 18.3333 4.08334 18.3333 5.00001V15C18.3333 15.9167 17.5833 16.6667 16.6667 16.6667H3.33332C2.41666 16.6667 1.66666 15.9167 1.66666 15V5.00001C1.66666 4.08334 2.41666 3.33334 3.33332 3.33334Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M18.3333 5L9.99999 10.8333L1.66666 5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>                            Subscribe
+                        </a>
+                </div>
+            </div>
+        </header>
 
-    <figure class="image main">
-        <img src="https://static.ghost.org/v4.0.0/images/publishing-options.png" alt="Customizing your brand and design settings" />
-    </figure>
+        
 
-    <div class="content">
-        <p>As discussed in the <a href="http://localhost:2369/welcome/">introduction</a> post, one of the best things about Ghost is just how much you can customize to turn your site into something unique. Everything about your layout and design can be changed, so you're not stuck with yet another clone of a social network profile.</p><p>How far you want to go with customization is completely up to you, there's no right or wrong approach! The majority of people use one of Ghost's built-in themes to get started, and then progress to something more bespoke later on as their site grows. </p><p>The best way to get started is with Ghost's branding settings, where you can set up colors, images and logos to fit with your brand.</p><figure class="kg-card kg-image-card kg-width-wide kg-card-hascaption"><img src="https://static.ghost.org/v4.0.0/images/brandsettings.png" class="kg-image" alt loading="lazy" width="3456" height="2338"><figcaption>Ghost Admin → Settings → Branding</figcaption></figure><p>Any Ghost theme that's up to date and compatible with Ghost 4.0 and higher will reflect your branding settings in the preview window, so you can see what your site will look like as you experiment with different options.</p><p>When selecting an accent color, try to choose something which will contrast well with white text. Many themes will use your accent color as the background for buttons, headers and navigational elements. Vibrant colors with a darker hue tend to work best, as a general rule.</p><h2 id="installing-ghost-themes">Installing Ghost themes</h2><p>By default, new sites are created with Ghost's friendly publication theme, called Casper. Everything in Casper is optimized to work for the most common types of blog, newsletter and publication that people create with Ghost — so it's a perfect place to start.</p><p>However, there are hundreds of different themes available to install, so you can pick out a look and feel that suits you best.</p><figure class="kg-card kg-image-card kg-width-wide kg-card-hascaption"><img src="https://static.ghost.org/v4.0.0/images/themesettings.png" class="kg-image" alt loading="lazy" width="3208" height="1618"><figcaption>Ghost Admin → Settings → Theme</figcaption></figure><p>Inside Ghost's theme settings you'll find 4 more official themes that can be directly installed and activated. Each theme is suited to slightly different use-cases.</p><ul><li><strong>Casper</strong> <em>(default)</em> — Made for all sorts of blogs and newsletters</li><li><strong>Edition</strong> — A beautiful minimal template for newsletter authors</li><li><strong>Alto</strong> — A slick news/magazine style design for creators</li><li><strong>London</strong> — A light photography theme with a bold grid</li><li><strong>Ease</strong> — A library theme for organizing large content archives</li></ul><p>And if none of those feel quite right, head on over to the <a href="https://ghost.org/themes/">Ghost Marketplace</a>, where you'll find a huge variety of both free and premium themes.</p><h2 id="building-something-custom">Building something custom</h2><p>Finally, if you want something completely bespoke for your site, you can always build a custom theme from scratch and upload it to your site.</p><p>Ghost's theming template files are very easy to work with, and can be picked up in the space of a few hours by anyone who has just a little bit of knowledge of HTML and CSS. Templates from other platforms can also be ported to Ghost with relatively little effort.</p><p>If you want to take a quick look at the theme syntax to see what it's like, you can <a href="https://github.com/tryghost/casper/">browse through the files of the default Casper theme</a>. We've added tons of inline code comments to make it easy to learn, and the structure is very readable.</p><figure class="kg-card kg-code-card"><pre><code class="language-handlebars">{{#post}}
+<main id="gh-main" class="gh-main">
+    <article class="gh-article post tag-getting-started">
+        <header class="gh-article-header gh-canvas">
+                <span class="gh-article-meta">
+                    By <a href="/author/ghost/">Ghost</a>
+                        in
+                        <a class="gh-article-tag" href="http://localhost:2369/tag/getting-started/">Getting Started</a>
+                    —
+                    <time datetime="2021-09-10">Sep 10, 2021</time>
+                </span>
+
+            <h1 class="gh-article-title">Customizing your brand and design settings</h1>
+
+                <p class="gh-article-excerpt">How to tweak a few settings in Ghost to transform your site from a generic template to a custom brand with style and personality.</p>
+
+                <figure class="gh-article-image">
+                    <img
+                        srcset="https://static.ghost.org/v4.0.0/images/publishing-options.png 300w,
+                                https://static.ghost.org/v4.0.0/images/publishing-options.png 720w,
+                                https://static.ghost.org/v4.0.0/images/publishing-options.png 960w,
+                                https://static.ghost.org/v4.0.0/images/publishing-options.png 1200w,
+                                https://static.ghost.org/v4.0.0/images/publishing-options.png 2000w"
+                        sizes="(max-width: 1200px) 100vw, 1200px"
+                        src="https://static.ghost.org/v4.0.0/images/publishing-options.png"
+                        alt="Customizing your brand and design settings"
+                    >
+                </figure>
+        </header>
+
+        <div class="gh-content gh-canvas">
+            <p>As discussed in the <a href="http://localhost:2369/welcome/">introduction</a> post, one of the best things about Ghost is just how much you can customize to turn your site into something unique. Everything about your layout and design can be changed, so you're not stuck with yet another clone of a social network profile.</p><p>How far you want to go with customization is completely up to you, there's no right or wrong approach! The majority of people use one of Ghost's built-in themes to get started, and then progress to something more bespoke later on as their site grows. </p><p>The best way to get started is with Ghost's branding settings, where you can set up colors, images and logos to fit with your brand.</p><figure class="kg-card kg-image-card kg-width-wide kg-card-hascaption"><img src="https://static.ghost.org/v4.0.0/images/brandsettings.png" class="kg-image" alt loading="lazy" width="3456" height="2338"><figcaption>Ghost Admin → Settings → Branding</figcaption></figure><p>Any Ghost theme that's up to date and compatible with Ghost 4.0 and higher will reflect your branding settings in the preview window, so you can see what your site will look like as you experiment with different options.</p><p>When selecting an accent color, try to choose something which will contrast well with white text. Many themes will use your accent color as the background for buttons, headers and navigational elements. Vibrant colors with a darker hue tend to work best, as a general rule.</p><h2 id="installing-ghost-themes">Installing Ghost themes</h2><p>By default, new sites are created with Ghost's friendly publication theme, called Casper. Everything in Casper is optimized to work for the most common types of blog, newsletter and publication that people create with Ghost — so it's a perfect place to start.</p><p>However, there are hundreds of different themes available to install, so you can pick out a look and feel that suits you best.</p><figure class="kg-card kg-image-card kg-width-wide kg-card-hascaption"><img src="https://static.ghost.org/v4.0.0/images/themesettings.png" class="kg-image" alt loading="lazy" width="3208" height="1618"><figcaption>Ghost Admin → Settings → Theme</figcaption></figure><p>Inside Ghost's theme settings you'll find 4 more official themes that can be directly installed and activated. Each theme is suited to slightly different use-cases.</p><ul><li><strong>Casper</strong> <em>(default)</em> — Made for all sorts of blogs and newsletters</li><li><strong>Edition</strong> — A beautiful minimal template for newsletter authors</li><li><strong>Alto</strong> — A slick news/magazine style design for creators</li><li><strong>London</strong> — A light photography theme with a bold grid</li><li><strong>Ease</strong> — A library theme for organizing large content archives</li></ul><p>And if none of those feel quite right, head on over to the <a href="https://ghost.org/themes/">Ghost Marketplace</a>, where you'll find a huge variety of both free and premium themes.</p><h2 id="building-something-custom">Building something custom</h2><p>Finally, if you want something completely bespoke for your site, you can always build a custom theme from scratch and upload it to your site.</p><p>Ghost's theming template files are very easy to work with, and can be picked up in the space of a few hours by anyone who has just a little bit of knowledge of HTML and CSS. Templates from other platforms can also be ported to Ghost with relatively little effort.</p><p>If you want to take a quick look at the theme syntax to see what it's like, you can <a href="https://github.com/tryghost/casper/">browse through the files of the default Casper theme</a>. We've added tons of inline code comments to make it easy to learn, and the structure is very readable.</p><figure class="kg-card kg-code-card"><pre><code class="language-handlebars">{{#post}}
 &lt;article class="article {{post_class}}"&gt;
 
     &lt;h1&gt;{{title}}&lt;/h1&gt;
@@ -201,96 +234,124 @@
 
 &lt;/article&gt;
 {{/post}}</code></pre><figcaption>A snippet from a post template</figcaption></figure><p>See? Not that scary! But still completely optional. </p><p>If you're interested in creating your own Ghost theme, check out our extensive <a href="https://ghost.org/docs/themes/">theme documentation</a> for a full guide to all the different template variables and helpers which are available.</p>
-    </div>
-
-
-    <footer class="post-footer">
-
-        <div class="authors">
-            <a class="author-box" href="/author/ghost/">
-                <img class="author-profile-image" src="https://static.ghost.org/v4.0.0/images/ghost-user.png" alt="Ghost" />
-                <section class="author-box-content">
-                    <div class="author-box-label">Author</div>
-                    <h5 class="author-box-name">Ghost</h5>
-                    <p>You can delete this user to remove all the welcome posts</p>
-                </section>
-            </a>
         </div>
 
-    </footer>
+            <footer class="gh-article-footer gh-canvas">
+                <nav class="gh-navigation">
+                    <div class="gh-navigation-previous">
+                            <a class="gh-navigation-link" href="/write/">
+                                <span class="gh-navigation-label"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="19" y1="12" x2="5" y2="12"></line>
+    <polyline points="12 19 5 12 12 5"></polyline>
+</svg> Previous issue</span>
+                                <h4 class="gh-navigation-title">Writing and managing content in Ghost, an advanced guide</h4>
+                            </a>
+                    </div>
+
+                    <div class="gh-navigation-middle"></div>
+
+                    <div class="gh-navigation-next">
+                            <a class="gh-navigation-link" href="/welcome/">
+                                <span class="gh-navigation-label">Next issue <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="5" y1="12" x2="19" y2="12"></line>
+    <polyline points="12 5 19 12 12 19"></polyline>
+</svg></span>
+                                <h4 class="gh-navigation-title">Start here for a quick overview of everything you need to know</h4>
+                            </a>
+                    </div>
+                </nav>
+            </footer>
+    </article>
+</main>
 
 
-</section>
 
-<script>
-    var images = document.querySelectorAll('.kg-gallery-image img');
-    images.forEach(function (image) {
-        var container = image.closest('.kg-gallery-image');
-        var width = image.attributes.width.value;
-        var height = image.attributes.height.value;
-        var ratio = width / height;
-        container.style.flex = ratio + ' 1 0%';
-    })
-</script>
+            <div class="gh-subscribe">
+                <div class="gh-outer">
+                    <section class="gh-subscribe-inner">
+                            <h3 class="gh-subscribe-title">Subscribe to Ana&#x27;s Blog</h3>
 
+                            <div class="gh-subscribe-description">Don’t miss out on the latest issues. Sign up now to get access to the library of members-only issues.</div>
 
+                            <a class="gh-subscribe-input" href="#/portal/signup">
+                                <div class="gh-subscribe-input-text">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
+    <path d="M3.33332 3.33334H16.6667C17.5833 3.33334 18.3333 4.08334 18.3333 5.00001V15C18.3333 15.9167 17.5833 16.6667 16.6667 16.6667H3.33332C2.41666 16.6667 1.66666 15.9167 1.66666 15V5.00001C1.66666 4.08334 2.41666 3.33334 3.33332 3.33334Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M18.3333 5L9.99999 10.8333L1.66666 5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>                                    jamie@example.com
+                                </div>
+                                <div class="gh-subscribe-input-btn">Subscribe</div>
+                            </a>
+                    </section>
+                </div>
             </div>
-        </main>
 
-        <div id="sidebar">
-    <div class="inner">
+        <footer class="gh-foot gh-outer">
+            <div class="gh-foot-inner gh-inner">
+                <div class="gh-copyright">
+                    Ana&#x27;s Blog © 2021
+                </div>
 
-            <nav id="menu">
-    <header class="major">
-        <h2>Menu</h2>
-    </header>
-    <ul class="links">
-        <li class="nav-home "><a href="http://localhost:2369/">Home</a></li>
-        <li class="nav-about "><a href="http://localhost:2369/about/">About</a></li>
-        <li class="nav-collection "><a href="http://localhost:2369/tag/getting-started/">Collection</a></li>
-        <li class="nav-author "><a href="http://localhost:2369/author/ghost/">Author</a></li>
-        <li class="nav-portal "><a href="http://localhost:2369/portal/">Portal</a></li>
-    </ul>
-</nav>
+                <nav class="gh-foot-menu">
+                    <ul class="nav">
+    <li class="nav-data-privacy"><a href="http://localhost:2369/privacy/">Data &amp; privacy</a></li>
+    <li class="nav-contact"><a href="http://localhost:2369/contact/">Contact</a></li>
+    <li class="nav-contribute"><a href="http://localhost:2369/contribute/">Contribute →</a></li>
+</ul>
 
-        <section>
-            <header class="major">
-                <h2>Recent Posts</h2>
-            </header>
-            <div class="mini-posts">
-                    <article>
-                        <h3><a href="/welcome/">Start here for a quick overview of everything you need to know</a></h3>
-                        <p>We've crammed the most important information to help you get started with Ghost into this one post. It's your cheat-sheet to get started, and your shortcut to advanced features.</p>
-                    </article>
-                    <article>
-                        <h3><a href="/design/">Customizing your brand and design settings</a></h3>
-                        <p>How to tweak a few settings in Ghost to transform your site from a generic template to a custom brand with style and personality.</p>
-                    </article>
-                    <article>
-                        <h3><a href="/write/">Writing and managing content in Ghost, an advanced guide</a></h3>
-                        <p>A full overview of all the features built into the Ghost editor, including powerful workflow automations to speed up your creative process.</p>
-                    </article>
+                </nav>
+
+                <div class="gh-powered-by">
+                    <a href="https://ghost.org/" target="_blank" rel="noopener">Powered by Ghost</a>
+                </div>
             </div>
-        </section>
-
-
-        <footer id="footer">
-            <p class="copyright">&copy; Ana&#x27;s Blog - All rights reserved<br>
-            Design: <a href="https://html5up.net" target="_blank" rel="noopener">HTML5 UP</a>, Published with <a href="https://ghost.org" target="_blank" rel="noopener">Ghost</a></p>
         </footer>
+    </div>
 
+        <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="pswp__bg"></div>
+
+    <div class="pswp__scroll-wrap">
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
     </div>
 </div>
-
-    </div>
-
-    <script src="/assets/main/js/jquery.min.js?v=dfe6102a3d"></script>
-    <script src="/assets/main/js/browser.min.js?v=dfe6102a3d"></script>
-    <script src="/assets/main/js/breakpoints.min.js?v=dfe6102a3d"></script>
-    <script src="/assets/main/js/util.js?v=dfe6102a3d"></script>
-    <script src="/assets/main/js/main.js?v=dfe6102a3d"></script>
+    <script src="/assets/built/main.min.js?v=4c59538030"></script>
 
     
-
 </body>
+
 </html>
